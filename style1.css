@@ -1,0 +1,81 @@
+body{
+    width: 100vw;
+    height: 90vh;
+    
+ }
+ .complete-it{
+     display: flex;
+     margin: 2% 8% 20% 15%;
+     padding: 8% 13% 10% 2% ;
+     justify-content: space-evenly;
+ 
+ 
+ }
+ .top-left{
+     position:absolute;
+     top: 8px;
+     left: 20px;
+     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; 
+     font-size: 50px;
+     font-weight: 700;
+     padding: 2% 18%;
+     letter-spacing: 1.3px;
+     
+ }
+ .top-right{
+     position: absolute;
+     top: 29px;
+     right:23px;
+     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; 
+     font-size: 26px;
+     font-weight: 300;
+     color: #AAAAAA;
+     padding: 2% 25%;
+     letter-spacing: 1px;
+     
+ }
+ .main-container{
+     display: flex;
+     width: 95%;
+     margin-top: 2%;
+     justify-content:space-between;
+     font-family:  'Open Sans Condensed'; 
+     flex-wrap: wrap;
+     font-weight: 400;
+     
+ }
+ h2{
+     color: #F55C47;
+     font-weight:300;
+         
+ }
+ 
+ .dec-txt{
+     text-decoration:line-through;
+     color: red;
+     text-decoration-style: solid;
+     text-decoration-thickness: 3px;
+     font-size: 20px;
+ }
+ 
+ .trip-card{
+     width: 210px;
+     height: 320px;
+     border: 1.3px  #F55C47;
+     text-align: center;
+     border-style: solid;
+     border-radius: 8px;
+     box-shadow:6px 6px 5px 2px lightgray ;
+     font-family:  'Open Sans Condensed'; 
+     color:#333333;
+     font-weight: 400;
+     font-size: 19px;
+     letter-spacing: 1px;
+     
+ }
+ .check-box{
+     width: 16px;
+     height: 16px;
+     border-radius:0.4px; 
+     
+ }

@@ -1,0 +1,123 @@
+body{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items:  center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    letter-spacing: 1px;
+    
+}
+.main-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 190px;
+    align-items: center;
+    margin: 1%;
+}
+
+.header{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+     
+}
+.header h1{
+    font-size: 45px;
+    font-weight: 700;
+    margin: 0 10% 2% 10%;
+
+}
+h1::before,h1::after{
+    display: inline-block;
+    content: "";
+    border-top:2px gray;
+    width: 7rem;
+    height: 2px;
+    color: gray;
+
+}
+h1{
+    display: flex;
+    flex-direction:row ;  
+}
+h1::before,h1::after{
+    content: "";
+    flex:1 1 ;
+    border-bottom: 1.3px solid;
+    margin: auto;
+
+}
+h1::before{
+    
+    margin-right: 5%;
+    width: 250px;
+}
+h1::after{
+    margin-left: 5%;
+    width: 250;
+}
+
+.top-icon{
+    display: flex;
+    margin-top:8px;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 5%;
+
+}
+.font-icon{
+    display: inline-block;
+    align-items: center;
+    font-size: 1.4rem;
+    justify-content: center;
+    color: gray;
+    padding: 15%;
+}
+.trip-card{
+    width: 300px;
+    height: 330px;
+    border: 1.3px  #F55C47;
+    text-align: center;
+    border-style: solid;
+    border-radius: 8px;
+    box-shadow:6px 6px 6px 2px lightgray ;
+    font-family:  'Open Sans Condensed'; 
+    color:#333333;
+    font-weight: 300;
+    font-size: 20px;
+    letter-spacing: 0.5px;
+    position: relative;
+    margin: 0% 1% 19%
+    
+}
+h2{
+    color: #F55C47;
+    font-weight:300;
+        
+}
+.dec-txt{
+    text-decoration:line-through;
+    color: red;
+    text-decoration-style: solid;
+    text-decoration-thickness: 3px;
+    font-size: 23px;
+    padding-left: 55px;
+    
+}
+
+.bottom-icon{
+    position:absolute;
+    margin: 15px;
+    right:1px ;
+    bottom: 5px;
+    
+}
+.check-box{
+    width: 18px;
+    height: 18px;
+    border-radius:0.4px; 
+    font-size: 16px;
+}

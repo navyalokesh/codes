@@ -1,0 +1,43 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    height: 100vh;
+    background-image: url(./2021-07-05\ \(9\).png);
+    background-size: cover;
+    background-position: center;
+    backdrop-filter:blur(4px);
+    display: flex;
+    font-family: 'Open Sans Condensed';
+    justify-content: center;
+}
+.Add-card{
+    width: 350px;
+    height: 180px;
+    position: absolute;
+    border: 1.3px solid #F55C47;
+    border-radius: 8px;
+    background-color: white;
+    box-shadow: 6px 6px 5px 1px lightgrey;
+    text-align: center;
+    top: 23%;
+    left: 35%;
+    
+    
+}
+.heading{
+    letter-spacing: 0.8px;
+    font-size: 20px;
+    font-weight: 510;
+    color: #F55C47;
+}
+.add-button{
+    padding: 5px 25px;
+    color: white;
+    background-color: red;
+    border: 0px;
+    border-radius: 20px;
+    margin-bottom: 10px;
+    margin-top: 6%;
+
+}
