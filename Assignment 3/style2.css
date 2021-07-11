@@ -1,0 +1,79 @@
+body{
+    margin: auto;
+    padding: 0;
+}
+
+
+.main-box{
+    width: 350px;
+    height: 620px;
+    display: flex;
+    flex-direction: column;
+    margin: 3vh auto;
+    background-color: white;
+    border: 1px solid lightgray;
+    font-family: 'Open Sans Condensed';
+    font-weight: 300;
+    font-size: 20px;
+    letter-spacing: 0.6px;
+}
+
+.heading{
+    display: flex;
+    align-items: center;
+    justify-content:space-between;
+    padding: 0px 25px;
+    
+    
+}
+
+.trip-card{
+    width: 220px;
+    height: 380px;
+    border: 1.3px  #F55C47;
+    text-align: center;
+    border-style: solid;
+    border-radius: 8px;
+    box-shadow:6px 6px 6px px lightgray ;
+    font-family:  'Open Sans Condensed'; 
+    color:#333333;
+    font-weight: 300;
+    font-size: 20px;
+    letter-spacing: 1.5px;
+    position: relative;
+    margin: 0% 19% 19%
+    
+}
+h2{
+    color: #F55C47;
+    font-weight:300;
+        
+}
+.dec-txt{
+    text-decoration:line-through;
+    color: red;
+    text-decoration-style: solid;
+    text-decoration-thickness: 3px;
+    font-size: 23px;
+    padding-left: 20px;
+    
+}
+
+.bottom-icon{
+    position:absolute;
+    margin: 15px;
+    right:1px ;
+    bottom: 5px;
+    
+    
+
+}
+
+
+.check-box{
+    width: 18px;
+    height: 18px;
+    border-radius:0.4px; 
+    font-size: 16px;
+    
+}
