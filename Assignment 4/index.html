@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./index.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.3/css/all.css" integrity="sha384-SZXxX4whJ79/gErwcOYf+zWLeJdY/qpuqC4cAa9rOGUstPomtqpuNWT9wdPEn2fk" crossorigin="anonymous">
+    
+    <title>ToDo App</title>
+</head>
+<body>
+        <!-- Heading container -->
+    <div id="blur-main">
+        <div class="heading-parent-container">
+            <h1 class="heading-styling" >Tasks <span class="list-style">Lists</span></h1>
+
+            <div class="addlist-style">
+                <a class="add"><i class="fa fa-plus-circle" style="font-size:30px;color:orangered;"></i></a> 
+                <span class="button-text"> Add List</span>
+            </div>
+        </div>
+        
+
+        <!-- Dynamic card -->
+
+        <div class="dynamic-card">
+            <!-- todo Card -->
+            <div class="cards"> 
+
+            </div>
+            <!-- Empty message -->
+            <p class="empty-message">No Items in the todo list</p>
+        </div>
+    </div>
+
+
+     <!-- adding a new card -->
+
+             <div class="newcard-popup">
+                    <p>Add New Card</p>
+                     <input class="heading-field" type="text">
+                     <button id="addBtnForCard" class="button"><a href="#">Add</a></button>
+                    <button class="button popup-close">Close</button>
+             </div>
+
+    <!-- popup to add new list  -->
+
+              <div class="newitem-popup">
+                    <p>Add New List</p>
+                        <input class="input-field" type="text">
+                       <button id="addBtnforList" class="button">Add</button>
+                       <button class="button closeBtn">Close</button>
+               </div>
+
+       
+
+        
+
+        
+        
+     
+
+</body>
+<script src="./index.js"></script>
+</html>

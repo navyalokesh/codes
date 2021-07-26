@@ -1,0 +1,316 @@
+/* *{
+    box-sizing: border-box;
+} */
+
+
+
+/* main container */
+body{
+    background-color: black;
+ 
+    
+    color: #FFF;
+}
+
+i {
+    cursor: pointer;
+}
+
+/* blur the main container */
+
+#blur-main.active{
+    filter: blur(5px);
+}
+
+/* Heading styling */
+.heading-parent-container{
+
+    display: flex;
+    margin-top: 30px;
+    margin-left: 140px;
+    justify-content: space-between;
+    /* padding-top: 20px; */
+    
+}
+
+
+/* 'Tasks' word styling */
+.heading-styling{
+    font-weight: bolder;
+    font-size: 50px;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* 'Lists' word styling */
+.list-style{
+    font-weight: 100;
+    font-family: 'Open Sans', sans-serif;
+    color: white;
+    width: 9px;
+   
+}
+
+/* 'Add Lists' word styling */
+
+.button-text{
+    font-size: 35px;
+    font-weight: lighter;
+    font-family: 'Open Sans', sans-serif;
+    letter-spacing: 0.1px;
+    color: white;
+    display: inline-block;
+    margin-right: 150px;
+    margin-top: 55px;
+   
+}
+
+/* styling for dynamic card */
+
+.dynamic-card {
+    margin-top: 80px;
+
+}
+
+.cards{
+    margin-top: 80px;
+    
+}
+
+/* styling for empty message */
+.empty-message {
+    font-size: 32px;
+    color: white;
+    font-family: 'Open Sans', sans-serif;
+    margin-left: 140px;
+    /* padding-bottom: 300px; */
+
+}
+
+/* adding a new list popup */
+.newitem-popup{
+    display: none;
+    position: fixed;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    border: 1px solid #ff2439;
+    background-color: #FFF;
+    color: #e74c3c;
+    padding: 5px 20px;
+    width: 320px;
+    border-radius: 10px;
+}
+
+.newitem-popup p{
+    font-size: 25px;
+    margin: 20px 0;
+    font-weight: bold;
+    font-family: 'Open Sans', sans-serif;
+}
+
+
+.input-field {
+    /* display: block;
+    border: 1px solid #ff2439;
+    border-radius: 5px;
+    height: 35px;
+    width: 280px; */
+
+
+    display: block;
+    border: 1px solid tomato;
+    border-radius: 0.5em;
+    height: 30px;
+    margin-bottom: 2em;
+    margin-left: 2em;
+    margin-right: 2em;
+    width: 20em;
+    margin-top: 10px;
+}
+
+.button {
+    margin: 15px 10px;
+    cursor: pointer;
+    background-color: #ff2439;
+    padding: 8px 25px;
+    border-radius: 19px;
+    outline: 0;
+    border: none;
+    color: #FFF;
+    font-size: 23px;
+}
+
+.button a {
+    text-decoration: none;
+    color: #FFF;
+}
+
+/* Adding a new card */
+
+.newcard-popup{
+    display: none;
+    position: fixed;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    border: 1px solid #ff2439;
+    background-color: #FFF;
+    color: #e74c3c;
+    padding: 5px 20px;
+    width: 320px;
+    border-radius: 10px;
+    /* width: 280px; */
+    margin-top: 10px;
+    
+}
+
+.newcard-popup p{
+    font-size: 25px;
+    margin: 20px 0;
+    font-weight: bold;
+    font-family: 'Open Sans', sans-serif;
+}
+
+/* heading field */
+
+.heading-field {
+    display: block;
+    border: 1px solid tomato;
+    border-radius: 0.5em;
+    height: 30px;
+    margin-bottom: 2em;
+    margin-left: 2em;
+    margin-right: 2em;
+    width: 20em;
+    margin-top: 10px;
+}
+
+
+/* styling for the card container */
+
+.dynamic-card{
+     margin-top: 85px;
+    
+}
+
+/* styling for the dynamic cards (these will apply through classList)*/
+
+.cards{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-left: 100px;
+    margin-right: 100px;
+    
+}
+
+.card-style {
+    min-height: 350px;
+    width: 250px; 
+    background-color: #FFF;
+    margin: 20px auto;
+    color: #ff2439;
+    border: 1px solid tomato
+    
+}
+
+.card-content {
+    text-align: center;
+    font-size: 21px;
+    height: 360px;
+    width: 250px;
+   background-color: white;
+   border-radius: 10px;
+    border: 1px solid tomato;
+    color: black;
+    font-weight: bolder;
+    font-family: 'Open Sans', sans-serif;
+    
+    
+}
+
+.card-content .title  {
+    margin: 15px 0;
+    color: #ff2439;
+    letter-spacing: 2px;
+    font-size: 25px;
+    font-weight: 700;
+}
+
+.card-content-horizontal {
+    color: #000;
+}
+
+.horizontalLine {
+    color: #000;
+}
+
+/* sub lists styling */
+.sub-card {
+    height: 65%;
+}
+
+.sub-card.sub-card-ol {
+    list-style: none;
+    color: #000;
+    margin-top: 20px;
+    color: black;
+}
+
+/* styling for the list items */
+.sub-card .sub-card-ol li {
+    margin-top: 10px;
+    margin-right: 10px;
+    list-style: none;
+}
+
+.sub-card .sub-card-ol .strike {
+    background: #4287e9;
+    color: #FFF;
+    border-radius: 5px;
+    padding: 0 5px;
+    cursor: pointer;
+    margin-left: 15px;
+    font-size: 10px;
+}
+
+
+
+/* styling for buttons */
+
+.card-op {
+    height: 35%;
+    position: relative;
+}
+
+.card-op i {
+    cursor: pointer;
+    font-size: 26px;
+    /* margin: 0 3px; */
+    margin-bottom: 45px;
+    display: space-around;
+    position: relative;
+    bottom: 10px;
+    left: 60px;
+}
+
+.content-add-icon {
+    color: #2222e0ad;
+    
+}
+
+.crud-add {
+    position:absolute;
+    bottom: 100px;
+    right: 10px;
+}
+
+.add-list {
+    text-decoration: none;
+    color: #FFF;
+    font-size: 36px;
+}
